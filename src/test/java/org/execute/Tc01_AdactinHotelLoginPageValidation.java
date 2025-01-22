@@ -52,6 +52,8 @@ public class Tc01_AdactinHotelLoginPageValidation extends SeleniumBase {
 		
 		WebElement loginButton = loginPage.getLoginButton();
 		seleniumBase.clickByJava(loginButton);
+		System.out.println("Login");
+		System.out.println("QA");
 
 	}
 
